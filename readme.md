@@ -6,7 +6,7 @@ There is also a `docker-compose.yml` file, so you can get a notebook up and runn
 
 ## Modifying Requirements
 
-If you want to customize this for yourself, the fastest way would be `git clone https://github.com/pmbaumgartner/graph-tool-pip`. Edit your `requirements.txt` file from there, and then `docker-compose up` should rebuild the image with the additional packages you've installed.
+If you want to customize this for yourself, the fastest way would be `git clone https://github.com/pmbaumgartner/graph-tool-pip`. Edit your `requirements.txt` file from there, and then `docker-compose up` should rebuild the image with the additional packages you've installed, and `docker-compose build` will force a rebuild.
 
 ## Docker Image
 
